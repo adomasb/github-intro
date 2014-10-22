@@ -1,6 +1,5 @@
 ---
 title: "Sharing is caring"
-subtitle: "Introduction to Github"
 author: "Adomas"
 date: "2014.10.23"
 output: ioslides_presentation
@@ -22,6 +21,8 @@ Each workshop should be hands-on practise:
 - Implement
 - Figure it out why it is useful and start using it on daily routine
 
+You will never learn anything completely just by looking at presentation.
+
 ## 
 
 Possible scenario of any workshop:
@@ -34,55 +35,63 @@ Possible scenario of any workshop:
 >- Practising
 >- Frustration pause
 >- Practising
->- Champagne...
+>- Oh, does it work?
+>- It works!
+>- Champagne -- ba-dum-tss
 
-# Github
+# Git & GitHub
 
-How to learn efectively:
+## What are those Git & GitHub?
 
-> - Listen, read
-> - Try to implement
-> - Try to implement
-> - Frustration
-> - Die
-> - Practise
-> - Practise
-> - Die
-> - Practise
-> - Practise
-> - Die
+Git is version control system designed by Linus Tornvald, the creator of Linux kernel.
+
+GitHub is web-based service for Git.
+
+GitHub is mostly used for simple development of projects using version control. This allows user freely develop alone or with other users. 
+
+Moreover, GitHub is more or less a community, where people share and learn. Many of open source tools firstly appears on GitHub. Then other users could easily report bugs on your project, develop additional features, expand your project scope, *etc*.
+
+##
+
+Q: But I am not a developer, I AM DATA SCIENTIST, why should I use such a tool?
+
+A: Because:
+
+>- You (probably) write code too 
+>- You (probably) work on the project with other people
+>- You (probably) don't back-up your projects
+>- You (probably) would like to access your projects anytime, anywhere
+>- You can see this presentation via GitHub
+
+Any more questions?
+
+## Plan of mini workshop
+
+1. Configure GitHub accounts with your computers
+2. Create a repository on GitHub
+3. Create a file and write something sad 
+4. Push that sad file to GitHub
+5. Clone your colleagues repository to your computer
+
+## Configuring GitHub
 
 
 
 
 
-# Github
 
-## dada
 
-```
-summary(cars)
-```
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
 
-## Slide with R Code and Output
 
-```{r}
-summary(cars)
-```
 
-## Slide with Plot
 
-```{r, echo=FALSE}
-plot(cars)
-```
+
+
+
+
+
 
