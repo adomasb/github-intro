@@ -2,7 +2,9 @@
 title: "Sharing is caring"
 author: "Adomas"
 date: "2014.10.23"
-output: ioslides_presentation
+output:
+  ioslides_presentation:
+    widescreen: yes
 ---
 
 # Intro to intro
