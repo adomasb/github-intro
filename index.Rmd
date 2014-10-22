@@ -1,0 +1,88 @@
+---
+title: "Sharing is caring"
+subtitle: "Introduction to Github"
+author: "Adomas"
+date: "2014.10.23"
+output: ioslides_presentation
+---
+
+# Intro to intro
+
+## Sharing is caring {.flexbox .vcenter}
+
+![alt text](sharing.jpg)
+
+*Reading more about STDs is optional
+
+## Main principles of workshops:
+
+Each workshop should be hands-on practise:
+
+- Share information
+- Implement
+- Figure it out why it is useful and start using it on daily routine
+
+## 
+
+Possible scenario of any workshop:
+
+>- Trying to understand information
+>- Practising
+>- Practising
+>- Frustration pause
+>- Practising
+>- Practising
+>- Frustration pause
+>- Practising
+>- Champagne...
+
+# Github
+
+How to learn efectively:
+
+> - Listen, read
+> - Try to implement
+> - Try to implement
+> - Frustration
+> - Die
+> - Practise
+> - Practise
+> - Die
+> - Practise
+> - Practise
+> - Die
+
+
+
+
+
+# Github
+
+## dada
+
+```
+summary(cars)
+```
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
