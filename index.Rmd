@@ -2,6 +2,7 @@
 title: "Sharing is caring"
 author: "Adomas"
 date: "2014.10.23"
+rotate incremental: true
 output:
   ioslides_presentation:
     widescreen: yes
@@ -75,18 +76,61 @@ Any more questions?
 4. Push that sad file to GitHub
 5. Clone your colleagues repository to your computer
 
-## Configuring GitHub
+## Configuring and Opening GitHub
 
+Firstly setting yourself as a user:
 
+```
+$ git config --global user.name "exacaster"
+$ git config --global user.email "exacaster@exacaster.com"
+```
 
+To confirm
 
+```
+$ git config --global user.email exacaster@exacaster.com
+```
 
+## Creating a repo on github.com
 
+Everything in GitHub exist as repos or repositories. One could imagine repo as a folder of project. 
 
+To create a repo on github.com:
 
+- Open github.com
+- Select 'New repository'
+- Select repo name
+- Click 'Create repository'
 
+## Cloning repo to computer
 
+To clone:
 
+```
+$ git clone repo_ssh_link
+```
+
+And go to directory:
+
+```
+cd repo_name
+```
+
+## README.md
+
+```
+touch README.md
+
+notepad README.md
+```
+
+add smth
+
+```
+git add README.md
+git commit -m "initial commit"
+git push
+```
 
 
 
