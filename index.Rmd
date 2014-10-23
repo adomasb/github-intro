@@ -75,7 +75,8 @@ Any more questions?
 2. Create a repository on GitHub.com
 3. Clone repo, create a file and write something sad 
 4. Add, commit and push that sad file to GitHub
-5. Clone your colleagues repository to your computer
+5. Create a repo using git-shell
+6. Excersise
 
 ## Configuring and Opening GitHub
 
@@ -131,7 +132,7 @@ These files are written in Markdown (.md extension) formatting syntax which coul
 
 This presentation is written in Markdown too.
 
-To create a file and open it with text editor, eg Notepad:
+To create a file and open it with text editor, *eg* Notepad:
 
 ```
 $ touch README.md
@@ -143,7 +144,7 @@ Now write few words about your saddest project yet and save the file.
 
 ## foo.txt
 
-Now we have a project but no project files yet. 
+Now we have a project and short summary, but no project files yet. 
 
 Let's create text file and fill it with sad story.
 
@@ -186,7 +187,7 @@ This is done with three easy steps:
 
 And if nothing have failed... open your repo on github.com/username/reponame.
 
-## WE ARE VICTORIOUS {.flexbox .vcenter}
+## WE ARE VICTORIOUS!!!!!111oneone {.flexbox .vcenter}
 
 ![alt text](happy.gif)
 
@@ -217,7 +218,8 @@ Now we are going to repeat almost the same steps but in a little different manne
 
 In yours just created repo do the following excersise steps:
 
-- Create README.md and text file there
+- Create README.md and summarise your new oroject
+- Create a text file and write something
 - Add, commit, push these files
 - Check if repo was successfully created
 - Give your created repo ssh_clone_url to colleague on the left
@@ -234,7 +236,7 @@ In yours just created repo do the following excersise steps:
 There are many other GitHub very useful features:
 
 - Branching -- availability to create branches of particular project and users work on different parts and then just merge the project into one
-- Forking -- fork someone else's project and develop furthermore as yourself
+- Forking -- fork someone else's project and develop furthermore yourself
 - Issue tracking -- essential when developing a bigger project
 - GitHub Pages -- availability to publish your website on GitHub
 
@@ -246,7 +248,9 @@ There are many other GitHub very useful features:
 - You would like to make such a presentations and show them easily on browser using GitHub pages
 - And many more features which I don't know/use yet...
 
+## Moral of the story {.flexbox .vcenter}
 
+**There is no moral, just stop whining and start learning and using new tools!** 
 
 
 
