@@ -26,7 +26,8 @@
       // Slide settings
       settings: {
                 title: 'Sharing is caring',
-                        useBuilds: true,
+                        subtitle: 'Introduction to Git & GitHub',
+                useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
@@ -133,7 +134,7 @@
 
 <p>GitHub is web-based service for Git.</p>
 
-<p>GitHub is mostly used for simple development of projects using version control. This allows user freely develop alone or with other users.</p>
+<p>GitHub is mostly used for simple development of projects using version control. This allows user freely develop alone or collaborate with others.</p>
 
 <p>Moreover, GitHub is more or less a community, where people share and learn. Many of open source tools firstly appears on GitHub. Then other users could easily report bugs on your project, develop additional features, expand your project scope, <em>etc</em>.</p>
 
@@ -145,7 +146,7 @@
 
 <ul class = 'build'>
 <li>You (probably) write code too</li>
-<li>You (probably) work on the project with other people</li>
+<li>You (probably) work on the project with colleagues</li>
 <li>You (probably) don&#39;t back-up your projects</li>
 <li>You (probably) would like to access your projects anytime, anywhere</li>
 <li>You can see this presentation via GitHub</li>
@@ -157,9 +158,9 @@
 
 <ol>
 <li>Configure GitHub accounts with your computers</li>
-<li>Create a repository on GitHub</li>
-<li>Create a file and write something sad</li>
-<li>Push that sad file to GitHub</li>
+<li>Create a repository on GitHub.com</li>
+<li>Clone repo, create a file and write something sad</li>
+<li>Add, commit, push that sad file to GitHub</li>
 <li>Clone your colleagues repository to your computer</li>
 </ol>
 
@@ -170,28 +171,78 @@
 <pre >$ git config --global user.name &quot;exacaster&quot;
 $ git config --global user.email &quot;exacaster@exacaster.com&quot;</pre>
 
-<p>To confirm</p>
+<p>To confirm your settings:</p>
 
 <pre >$ git config --global user.email exacaster@exacaster.com</pre>
 
 </article></slide><slide class=''><hgroup><h2>Creating a repo on github.com</h2></hgroup><article  id="creating-a-repo-on-github.com">
 
-<p>Everything in GitHub exist as repos or repositories. One could imagine repo as a folder of project.</p>
+<p>Everything in GitHub exist as repositories aka repos. One could imagine repo as a folder of project where all code or any files are stored.</p>
 
 <p>To create a repo on github.com:</p>
 
 <ul>
 <li>Open github.com</li>
 <li>Select &#39;New repository&#39;</li>
-<li>Select repo name</li>
+<li>Write down your repo name</li>
 <li>Click &#39;Create repository&#39;</li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Cloning repo to computer</h2></hgroup><article  id="cloning-repo-to-computer">
 
-<p>To clone:</p>
+<p>Every (public) repo could be cloned to your local machine using SSH clone URL.</p>
 
-<pre >$ git clone repo_ssh_link</pre></article></slide>
+<p>Imagine cloning just as simple copy &amp; paste procedure with hidden Git structure skeleton.</p>
+
+<p>Run on GitHub shell:</p>
+
+<pre >$ git clone ssh_clone_url</pre>
+
+<p>And go to cloned directory:</p>
+
+<pre >$ cd repo_name</pre>
+
+<p>Notice that additional information about repo appears on GitHub shell.</p>
+
+</article></slide><slide class=''><hgroup><h2>README.md</h2></hgroup><article  id="readme.md">
+
+<p>Every repo has a Read-me file where short summary of project is stated.</p>
+
+<p>These files are written in Markdown (.md extension) formatting syntax which could be easily converted to HTML.</p>
+
+<p>This presentation is written in Markdown too.</p>
+
+<p>To create a file and open it with text editor, eg Notepad:</p>
+
+<pre >$ touch README.md
+
+$ notepad README.md</pre>
+
+<p>Now write something about you future project and save the file.</p>
+
+</article></slide><slide class=''><hgroup><h2>Adding, commiting and pushing</h2></hgroup><article  id="adding-commiting-and-pushing">
+
+<p>Once file is created, we want it to appear on github.com/username/reponame.</p>
+
+<p>This is done with three easy steps:</p>
+
+<ul>
+<li>Adding</li>
+</ul>
+
+<p><code>$ git add README.md</code></p>
+
+<ul>
+<li>Commiting</li>
+</ul>
+
+<p><code>$ git commit -m &quot;initial commit&quot;</code></p>
+
+<ul>
+<li>Pushing</li>
+</ul>
+
+<p><code>$ git push</code></p></article></slide>
 
 
   <slide class="backdrop"></slide>

@@ -1,5 +1,6 @@
 ---
 title: "Sharing is caring"
+subtitle: "Introduction to Git & GitHub"
 author: "Adomas"
 date: "2014.10.23"
 rotate incremental: true
@@ -50,7 +51,7 @@ Git is version control system designed by Linus Tornvald, the creator of Linux k
 
 GitHub is web-based service for Git.
 
-GitHub is mostly used for simple development of projects using version control. This allows user freely develop alone or with other users. 
+GitHub is mostly used for simple development of projects using version control. This allows user freely develop alone or collaborate with others. 
 
 Moreover, GitHub is more or less a community, where people share and learn. Many of open source tools firstly appears on GitHub. Then other users could easily report bugs on your project, develop additional features, expand your project scope, *etc*.
 
@@ -61,7 +62,7 @@ Q: But I am not a developer, I AM DATA SCIENTIST, why should I use such a tool?
 A: Because:
 
 >- You (probably) write code too 
->- You (probably) work on the project with other people
+>- You (probably) work on the project with colleagues
 >- You (probably) don't back-up your projects
 >- You (probably) would like to access your projects anytime, anywhere
 >- You can see this presentation via GitHub
@@ -71,9 +72,9 @@ Any more questions?
 ## Plan of mini workshop
 
 1. Configure GitHub accounts with your computers
-2. Create a repository on GitHub
-3. Create a file and write something sad 
-4. Push that sad file to GitHub
+2. Create a repository on GitHub.com
+3. Clone repo, create a file and write something sad 
+4. Add, commit, push that sad file to GitHub
 5. Clone your colleagues repository to your computer
 
 ## Configuring and Opening GitHub
@@ -85,7 +86,7 @@ $ git config --global user.name "exacaster"
 $ git config --global user.email "exacaster@exacaster.com"
 ```
 
-To confirm
+To confirm your settings:
 
 ```
 $ git config --global user.email exacaster@exacaster.com
@@ -93,44 +94,76 @@ $ git config --global user.email exacaster@exacaster.com
 
 ## Creating a repo on github.com
 
-Everything in GitHub exist as repos or repositories. One could imagine repo as a folder of project. 
+Everything in GitHub exist as repositories aka repos. One could imagine repo as a folder of project where all code or any files are stored. 
 
 To create a repo on github.com:
 
 - Open github.com
 - Select 'New repository'
-- Select repo name
+- Write down your repo name
 - Click 'Create repository'
 
 ## Cloning repo to computer
 
-To clone:
+Every (public) repo could be cloned to your local machine using SSH clone URL.
+
+Imagine cloning just as simple copy & paste procedure with hidden Git structure skeleton.
+
+Run on GitHub shell:
 
 ```
-$ git clone repo_ssh_link
+$ git clone ssh_clone_url
 ```
 
-And go to directory:
+And go to cloned directory:
 
 ```
-cd repo_name
+$ cd repo_name
 ```
+
+Notice that additional information about repo appears on GitHub shell.
 
 ## README.md
 
-```
-touch README.md
+Every repo has a Read-me file where short summary of project is stated. 
 
-notepad README.md
+These files are written in Markdown (.md extension) formatting syntax which could be easily converted to HTML.
+
+This presentation is written in Markdown too.
+
+To create a file and open it with text editor, eg Notepad:
+
+```
+$ touch README.md
+
+$ notepad README.md
 ```
 
-add smth
+Now write something about you future project and save the file.
 
-```
-git add README.md
-git commit -m "initial commit"
-git push
-```
+## Adding, commiting and pushing
+
+Once file is created, we want it to appear on github.com/username/reponame. 
+
+This is done with three easy steps:
+
+- Adding
+
+  ```
+  $ git add README.md
+  ```
+  
+- Commiting
+
+  ```
+  $ git commit -m "initial commit"
+  ```
+  
+- Pushing
+
+  ```
+  $ git push
+  ```
 
 
 
