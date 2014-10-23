@@ -13,9 +13,9 @@ output:
 
 ## Sharing is caring {.flexbox .vcenter}
 
-![alt text](sharing.jpg)
+![alt text](sharingcaring.gif)
 
-*Reading more about STDs is optional
+*Sharing your meal is optional
 
 ## Main principles of workshops:
 
@@ -62,7 +62,7 @@ Q: But I am not a developer, I AM DATA SCIENTIST, why should I use such a tool?
 A: Because:
 
 >- You (probably) write code too 
->- You (probably) work on the project with colleagues
+>- You (probably) work on the project with your colleagues
 >- You (probably) don't back-up your projects
 >- You (probably) would like to access your projects anytime, anywhere
 >- You can see this presentation via GitHub
@@ -74,7 +74,7 @@ Any more questions?
 1. Configure GitHub accounts with your computers
 2. Create a repository on GitHub.com
 3. Clone repo, create a file and write something sad 
-4. Add, commit, push that sad file to GitHub
+4. Add, commit and push that sad file to GitHub
 5. Clone your colleagues repository to your computer
 
 ## Configuring and Opening GitHub
@@ -103,9 +103,9 @@ To create a repo on github.com:
 - Write down your repo name
 - Click 'Create repository'
 
-## Cloning repo to computer
+## Cloning repo to your computer
 
-Every (public) repo could be cloned to your local machine using SSH clone URL.
+Every repo could be cloned to your local machine using SSH clone URL.
 
 Imagine cloning just as simple copy & paste procedure with hidden Git structure skeleton.
 
@@ -125,7 +125,7 @@ Notice that additional information about repo appears on GitHub shell.
 
 ## README.md
 
-Every repo has a Read-me file where short summary of project is stated. 
+Every repo has a read me file where short summary of project is stated. 
 
 These files are written in Markdown (.md extension) formatting syntax which could be easily converted to HTML.
 
@@ -139,31 +139,116 @@ $ touch README.md
 $ notepad README.md
 ```
 
-Now write something about you future project and save the file.
+Now write few words about your saddest project yet and save the file.
+
+## foo.txt
+
+Now we have a project but no project files yet. 
+
+Let's create text file and fill it with sad story.
+
+```
+$ touch foo.txt
+$ notepad foo.txt
+```
+
+Write sad story and save the file. 
+
+To check situation of your project:
+
+```
+$ git status
+```
 
 ## Adding, commiting and pushing
 
-Once file is created, we want it to appear on github.com/username/reponame. 
+Once read me and file is created, we want them to appear on github.com. 
 
 This is done with three easy steps:
 
-- Adding
+- Adding files to your local repository and staging for commiting:
 
   ```
   $ git add README.md
   ```
   
-- Commiting
+- Commiting your updates (still locally):
 
   ```
   $ git commit -m "initial commit"
   ```
   
-- Pushing
+- Pushing your changes to GitHub:
 
   ```
   $ git push
   ```
+
+And if nothing have failed... open your repo on github.com/username/reponame.
+
+## WE ARE VICTORIOUS {.flexbox .vcenter}
+
+![alt text](happy.gif)
+
+Congrats, it is your first project on GitHub!
+
+## Creating new repo using shell
+
+Before excersise we still need to learn something more.
+
+We will create a repo using github-shell.
+
+Firstly, we need to create a directory where repo will exists:
+
+```
+$ mkdir reponame
+$ cd reponame
+```
+
+To initialize Git skeleton to your repo:
+
+```
+$ git init
+```
+
+## Practice makes you perfect
+
+Now we are going to repeat almost the same steps but in a little different manner. 
+
+In yours just created repo do the following excersise steps:
+
+- Create README.md and text file there
+- Add, commit, push these files
+- Check if repo was successfully created
+- Give your created repo ssh_clone_url to colleague on the left
+- Clone your colleague's on the right repo
+
+
+## Becoming perfect {.flexbox .vcenter}
+
+![perfect](practice.gif)
+
+
+## What else GitHub has to offer?
+
+There are many other GitHub very useful features:
+
+- Branching -- availability to create branches of particular project and users work on different parts and then just merge the project into one
+- Forking -- fork someone else's project and develop furthermore as yourself
+- Issue tracking -- essential when developing a bigger project
+- GitHub Pages -- availability to publish your website on GitHub
+
+## What should **I** use GitHub?
+
+- You want to back up your projects in case of fire/armageddon/disk failure
+- When working on same project, you would like to co-operate with others, *eg* Kaggle competitions
+- You are using open source tools and always want to be updated, *eg* some R libraries firstly appear on GitHub before CRAN, moreover development updates are always firstly on GitHub
+- You would like to make such a presentations and show them easily on browser using GitHub pages
+- And many more features which I don't know/use yet...
+
+
+
+
 
 
 
