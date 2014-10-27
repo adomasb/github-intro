@@ -80,18 +80,20 @@ Any more questions?
 
 ## Configuring and Opening GitHub
 
+Open your GitHub shell.
+
 Firstly setting yourself as a user:
 
-```
-$ git config --global user.name "exacaster"
-$ git config --global user.email "exacaster@exacaster.com"
-```
+  ```
+  $ git config --global user.name "exacaster"
+  $ git config --global user.email "exacaster@exacaster.com"
+  ```
 
 To confirm your settings:
 
-```
-$ git config --global user.email exacaster@exacaster.com
-```
+  ```
+  $ git config --global user.email exacaster@exacaster.com
+  ```
 
 ## Creating a repo on github.com
 
@@ -112,15 +114,15 @@ Imagine cloning just as simple copy & paste procedure with hidden Git structure 
 
 Run on GitHub shell:
 
-```
-$ git clone ssh_clone_url
-```
+  ```
+  $ git clone ssh_clone_url
+  ```
 
 And go to cloned directory:
 
-```
-$ cd repo_name
-```
+  ```
+  $ cd repo_name
+  ```
 
 Notice that additional information about repo appears on GitHub shell.
 
@@ -134,11 +136,13 @@ This presentation is written in Markdown too.
 
 To create a file and open it with text editor, *eg* Notepad:
 
-```
-$ touch README.md
-
-$ notepad README.md
-```
+  ```
+  $ touch README.md
+  ```
+  
+  ```
+  $ notepad README.md
+  ```
 
 Now write few words about your saddest project yet and save the file.
 
@@ -148,18 +152,18 @@ Now we have a project and short summary, but no project files yet.
 
 Let's create text file and fill it with sad story.
 
-```
-$ touch foo.txt
-$ notepad foo.txt
-```
+  ```
+  $ touch foo.txt
+  $ notepad foo.txt
+  ```
 
 Write sad story and save the file. 
 
 To check situation of your project:
 
-```
-$ git status
-```
+  ```
+  $ git status
+  ```
 
 ## Adding, commiting and pushing
 
@@ -201,16 +205,16 @@ We will create a repo using github-shell.
 
 Firstly, we need to create a directory where repo will exists:
 
-```
-$ mkdir reponame
-$ cd reponame
-```
+  ```
+  $ mkdir reponame
+  $ cd reponame
+  ```
 
 To initialize Git skeleton to your repo:
 
-```
-$ git init
-```
+  ```
+  $ git init
+  ```
 
 ## Practice makes you perfect
 
