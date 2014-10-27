@@ -143,6 +143,7 @@ To create a file and open it with text editor, *eg* Notepad:
   $ touch README.md
   ```
   
+  
   ```
   $ notepad README.md
   ```
