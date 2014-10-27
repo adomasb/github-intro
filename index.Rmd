@@ -86,6 +86,9 @@ Firstly setting yourself as a user:
 
   ```
   $ git config --global user.name "exacaster"
+  ```
+  
+  ```
   $ git config --global user.email "exacaster@exacaster.com"
   ```
 
